@@ -1,6 +1,6 @@
 package gather
 
-import "git.sy2020.cn/sykjcgq/device-communication/db"
+import "github.com/bxgdchen/device-communication/db"
 
 // Gather ...
 type Gather interface {

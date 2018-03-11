@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"git.sy2020.cn/sykjcgq/device-communication/config"
+	"github.com/bxgdchen/device-communication/config"
 )
 
 func main() {
