@@ -1,0 +1,22 @@
+---
+stations: 
+- station1: 
+  name: '测试电站'
+  api_key: '123456'
+  token: '123123'
+  client_id: '123456789'
+  is_gather: true
+  devices:
+  - device1:
+    name: '流量仪' # 设备名称
+    is_calculate: true
+    ins: '010300080004' # 通讯指令
+    ins_mode: 'read' # 指令模式 read,write
+    ins_frequency: -1 # 指令发送频率 -1:always,0:0次，1:1次 ...
+    order: '3456' # 收到指令解析顺序，该顺序同时指出是哪几个字节,下标从0开始
+    format: 'hex' # 收到指令编码格式ieee754,hex
+    conversion_rate: 1.0 # 转换率，根据编码格式设置
+    plus: 0.0 # 加减基数
+    factor: 1.0 # 倍率因子
+    prefix: '' # 存储格式前缀
+...
